@@ -1,0 +1,119 @@
+.product-page-titel .titel-link-icons span{
+    color: #373737;
+    font-size: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+.bi-bell-fill{
+    color: gold;
+}
+.product-page-introduction{
+    position: relative;
+}
+.product-page-introduction p{
+    height: 69px;
+    overflow: hidden;
+    font-size: 15px;
+    color: #373737;
+}
+.introduction-toggle i{
+    vertical-align: -5px;
+    margin-right: 5px;
+}
+.introduction-toggle{
+    cursor: pointer;
+    font-size: 18px;
+    display: inline;
+}
+.introduction-dropdown p{
+    height: auto;
+}
+.product-page-price s{
+    font-size: 12px;
+}
+.product-page-rate{
+    color: gold;
+}
+.product-page-options .option-list{
+    border-right: 2px solid #8f8f8f;
+}
+.option-list .option-item{
+    font-size: 16px;
+    color: #444;
+}
+.option-item i{
+    font-size: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: -25px;
+    top: 6px !important;
+}
+.option-item i::before{
+    top: 0 !important;
+    position: absolute;
+    color: #373737;
+}
+/* shopping basket start */
+.basket-container{
+    max-width: 180px;
+}
+.add-basket {
+    width: 100%;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.counter-basket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    padding: 4px 10px;
+    width: 100%;
+}
+.qty-btn {
+    background: transparent;
+    border: none;
+    color: #ff0000;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+.qty-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #373737;
+}
+/* shopping basket end */
+@media screen and (max-width:768px) {
+    .product-page-titel h2{
+        font-size: 20px;
+    }
+    .product-page-titel span i{
+        font-size: 14px;
+    }
+    .product-page-introduction p{
+        font-size: 13px;
+        height: 60px;
+    }
+    .product-page-introduction.introduction-dropdown p{
+        height:auto ;
+    }
+    .product-page-introduction span{
+        font-size: 14px;
+    }
+    .add-basket{
+        padding: 10px;
+    }
+    .option-list .option-item{
+        font-size: 13px;
+    }
+}

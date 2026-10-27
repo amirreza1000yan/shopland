@@ -1,0 +1,59 @@
+.owl-carousel-inner {
+  margin: 5px;
+}
+.brand-carousel {
+  position: relative;
+}
+.brand-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 130px;
+}
+.brand-card:hover {
+  box-shadow: 0 0 2px 2px #9d9d9d;
+  z-index: 3;
+}
+.brand-card img{
+  max-width: 100px;
+}
+.brand-carousel .owl-nav {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: right;
+}
+.brand-carousel .owl-nav span {
+  font-size: 40px;
+  height: 50px !important;
+  width: 40px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  background-color: #d9d9d9;
+  transition: all 0.3s;
+  outline: none;
+}
+.brand-carousel button:first-child span {
+  right: 0;
+  border-radius: 5px 0 0 5px;
+}
+.brand-carousel button span:hover {
+  border: 2px solid #9d9d9d;
+}
+@media screen and (max-width: 992px) {
+  .brand-carousel .owl-carousel-inner img {
+    max-width: 80px;
+  }
+  .brand-card {
+    min-height: 110px !important;
+  }
+  .brand-carousel .owl-nav span{
+    width: 30px !important;
+    height: 40px !important;
+  }
+}

@@ -1,0 +1,35 @@
+.modal-dialog{
+    max-width: 400px;
+}
+.sign-link {
+  font-size: 18px;
+}
+.sign-link i {
+  vertical-align: -4px;
+  font-size: 24px;
+}
+.modal-body input:not(#checkbox) {
+  direction: rtl;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #efefef;
+}
+.modal-body input:focus,
+.modal-body input:focus-visible,
+.modal-body input:active {
+  outline: none;
+  box-shadow: none;
+  border-bottom-color: #0e76ff !important;
+}
+.modal-body input:active ~ label .modal-body input[type="checkbox"] {
+  border: 1px solid #373737;
+}
+.modal-body label {
+  font-size: 14px;
+  color: #373737;
+}
+.modal-footer i{
+    font-size: 20px;
+    vertical-align: -4px;
+    margin-right: 10px;
+}

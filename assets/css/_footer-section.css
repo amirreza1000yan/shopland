@@ -1,0 +1,70 @@
+footer *::selection {
+  color: #fff;
+  background-color: orange;
+}
+footer{
+    margin-top: 150px;
+}
+.news-letter{
+    margin-top: -100px !important;
+}
+footer .news-letter p {
+  font-size: 14px;
+}
+.news-letter .news-letter-s2 p {
+  line-height: 28px;
+}
+.news-letter .news-letter-s3 button {
+  font-size: 14px;
+}
+.main-section-footer h6 {
+  border-bottom: 2px solid #bababa;
+  padding: 10px 0;
+}
+.main-section-footer li a {
+  color: #4d4d4d;
+  font-size: 14px;
+  padding-right: 0;
+  padding-left: 0;
+  transition: all 0.3s;
+}
+.main-section-footer li a:active {
+  color: orange;
+}
+.main-section-footer li a:focus {
+  color: orange;
+}
+.main-section-footer li a:active {
+  box-shadow: none;
+}
+.main-section-footer li a:hover {
+  color: orange;
+  margin-right: 5px;
+}
+.main-section-footer .support-icon {
+  font-size: 30px;
+  color: orange;
+}
+.main-section-footer .tel-support {
+  color: #4d4d4d;
+}
+.main-section-footer .tel-support a {
+  color: #4d4d4d;
+}
+.main-section-footer .social-icons i {
+  font-size: 25px;
+  color: #4d4d4d;
+  transition: all 0.3s;
+}
+.main-section-footer .social-icons i:hover {
+  color: orange;
+}
+.main-section-footer .address {
+  font-size: 13px;
+  color: #4d4d4d;
+}
+@media screen and (max-width:768px) {
+    .news-letter *{
+        font-size:12px ;
+    }
+}

@@ -1,0 +1,82 @@
+.product-page-nav-item .nav-link{
+    color: #ff0000;
+    border: none;
+}
+.product-page-nav-item .nav-link.active{
+    color: #a30000;
+    border:1px solid #dee2e6;
+    border-bottom: none;
+}
+.product-page-nav-item .nav-link:hover{
+    color: #a30000;
+}
+.product-page-tab-pane h4{
+    color: #373737;
+}
+.product-page-tab-pane{
+    color: #4b4b4b;
+    font-size: 14px;
+}
+/* analysis-tab-pane style */
+.analysis-tab-pane p{
+    height: 150px;
+    overflow: hidden;
+}
+.analysis-tab-pane.analysis-dropdown p{
+    height: auto;
+}
+.analysis-tab-pane>span{
+    opacity: 0;
+}
+@media screen and (max-width:1200px) {
+    .analysis-tab-pane>span {
+        opacity: 1;
+    }
+}
+/* details-tab-pane style */
+.detailes-menu{
+    height: 190px;
+    overflow: hidden;
+    padding: 0;
+}
+.detailes-menu.detailes-menu-dropdown{
+    height: auto;
+}
+.details-tab-pane-item span{
+    background-color: #efefef;
+    padding: 5px 10px ;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.details-tab-pane-item span:first-child{
+    width: 30%;
+}
+.details-tab-pane-item span:last-child{
+    width: 65%;
+}
+/* comment-tab-pane style */
+.comment-head .comment-img{
+    width: 40px;
+}
+.comment-head{
+    font-size: 10px;
+}
+.comment-body .comment-body-details{
+    height: 0px;
+    overflow: hidden;
+}
+.comment-body-collapse ~ .comment-body-details{
+    height: auto;
+}
+.comment-body span{
+    cursor: pointer;
+}
+.comment-body .comment-strengths,.comment-weaknesses{
+    padding: 0;
+}
+.comment-strengths i,.comment-weaknesses i{
+    vertical-align: -2px;
+    font-size: 12px;
+}

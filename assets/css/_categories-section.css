@@ -1,0 +1,18 @@
+.category-item{
+    transition: all .3s;
+    outline: 0 !important;
+    border: 0 !important;
+}
+.category-item a{
+    outline: none !important;
+    border: none !important;
+}
+.category-item img{
+    width: 100px;
+}
+.category-item p{
+    font-size: 10px;
+}
+.category-item:hover{
+    box-shadow: 0 0 4px 1px #686767;
+}

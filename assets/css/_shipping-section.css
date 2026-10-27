@@ -1,0 +1,12 @@
+.shipping-item{
+    align-items: center;
+    display: flex;
+}
+.shipping-item i{
+    font-size: 24px;
+    color: rgb(189, 2, 2);
+}
+.shipping-item p{
+    font-size: 11px;
+    padding-right: 10px;
+}

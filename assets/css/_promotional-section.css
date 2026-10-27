@@ -1,0 +1,38 @@
+
+.promotional-item{
+    height: 340px;
+}
+@media screen and (max-width:992px){
+        .promotional-item{
+        height: 440px !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .promotional-item{
+        height: 240px !important;
+    }
+}
+@media screen and (min-width:768px){
+    .promotional-item .poster-container img{
+      padding: 0 20px;
+    } 
+    .promotional-item:nth-of-type(2){
+      padding: 0 !important;
+    }
+}
+.promotional-slider {
+  height: 100% !important;
+}
+.carousel-inner {
+  height: 100% !important;
+}
+.promotional-slider-item {
+  height: 100% !important;
+}
+.promotional-slider-item img {
+  height: 100% !important;
+}
+.carousel-caption {
+  text-shadow: 2px 2px 2px black;
+  color: #ececec;
+}

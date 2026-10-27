@@ -1,0 +1,9 @@
+.adds-item{
+    overflow: hidden;
+}
+.adds-img{
+    transition: all .4s;
+}
+.adds-img:hover{
+    transform: scale(1.1);
+}
